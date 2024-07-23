@@ -78,12 +78,7 @@ class Stack implements Countable
         return $this->stack->pop();
     }
 
-    /**
-     * Returns the count of templates in the stack.
-     *
-     * @return int
-     */
-    public function count()
+    public function count(): int
     {
         return $this->stack->count();
     }
